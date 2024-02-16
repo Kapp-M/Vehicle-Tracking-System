@@ -1,0 +1,91 @@
+\hypertarget{class_vehicle_tracking_1_1_vehicle}{}\doxysection{Vehicle\+Tracking.\+Vehicle Class Reference}
+\label{class_vehicle_tracking_1_1_vehicle}\index{VehicleTracking.Vehicle@{VehicleTracking.Vehicle}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_vehicle_tracking_1_1_vehicle_ad17c81ad66a94f213d8176a56c608195}{Vehicle}} (\mbox{\hyperlink{class_vehicle_tracking_1_1_location}{Location}} initial\+Location, \mbox{\hyperlink{class_vehicle_tracking_1_1_location}{Location}} danger\+Zone\+Center, double danger\+Zone\+Radius)
+\item 
+void \mbox{\hyperlink{class_vehicle_tracking_1_1_vehicle_a85df8a83eeb033ce73424798ec0d672d}{change\+Location}} (\mbox{\hyperlink{class_vehicle_tracking_1_1_location}{Location}} new\+Location)
+\item 
+\mbox{\hyperlink{class_vehicle_tracking_1_1_location}{Location}} \mbox{\hyperlink{class_vehicle_tracking_1_1_vehicle_a5099084ee856dabd7e404cf53918c634}{get\+Current\+Location}} ()
+\item 
+double \mbox{\hyperlink{class_vehicle_tracking_1_1_vehicle_aa74a7df557914cc33ba299588253abc3}{get\+Total\+Distance\+Travelled}} ()
+\item 
+boolean \mbox{\hyperlink{class_vehicle_tracking_1_1_vehicle_a1ecc043cf8524e3759718c7a02c8273c}{is\+In\+Danger\+Zone}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents a vehicle in the tracking system. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_vehicle_tracking_1_1_vehicle_ad17c81ad66a94f213d8176a56c608195}\label{class_vehicle_tracking_1_1_vehicle_ad17c81ad66a94f213d8176a56c608195}} 
+\index{VehicleTracking.Vehicle@{VehicleTracking.Vehicle}!Vehicle@{Vehicle}}
+\index{Vehicle@{Vehicle}!VehicleTracking.Vehicle@{VehicleTracking.Vehicle}}
+\doxysubsubsection{\texorpdfstring{Vehicle()}{Vehicle()}}
+{\footnotesize\ttfamily Vehicle\+Tracking.\+Vehicle.\+Vehicle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vehicle_tracking_1_1_location}{Location}}}]{initial\+Location,  }\item[{\mbox{\hyperlink{class_vehicle_tracking_1_1_location}{Location}}}]{danger\+Zone\+Center,  }\item[{double}]{danger\+Zone\+Radius }\end{DoxyParamCaption})}
+
+Constructor to create a new vehicle with the specified initial location and danger zone parameters. \begin{DoxyAuthor}{Author}
+Kalp-\/\+Girish-\/\+Rudra-\/\+Jiya 
+\end{DoxyAuthor}
+
+\begin{DoxyParams}{Parameters}
+{\em initial\+Location} & The initial location of the vehicle. \\
+\hline
+{\em danger\+Zone\+Center} & The center of the danger zone. \\
+\hline
+{\em danger\+Zone\+Radius} & The radius of the danger zone. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_vehicle_tracking_1_1_vehicle_a85df8a83eeb033ce73424798ec0d672d}\label{class_vehicle_tracking_1_1_vehicle_a85df8a83eeb033ce73424798ec0d672d}} 
+\index{VehicleTracking.Vehicle@{VehicleTracking.Vehicle}!changeLocation@{changeLocation}}
+\index{changeLocation@{changeLocation}!VehicleTracking.Vehicle@{VehicleTracking.Vehicle}}
+\doxysubsubsection{\texorpdfstring{changeLocation()}{changeLocation()}}
+{\footnotesize\ttfamily void Vehicle\+Tracking.\+Vehicle.\+change\+Location (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vehicle_tracking_1_1_location}{Location}}}]{new\+Location }\end{DoxyParamCaption})}
+
+Method to change the location of the vehicle and update the total distance travelled. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Location} & The new location of the vehicle. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_vehicle_tracking_1_1_vehicle_a5099084ee856dabd7e404cf53918c634}\label{class_vehicle_tracking_1_1_vehicle_a5099084ee856dabd7e404cf53918c634}} 
+\index{VehicleTracking.Vehicle@{VehicleTracking.Vehicle}!getCurrentLocation@{getCurrentLocation}}
+\index{getCurrentLocation@{getCurrentLocation}!VehicleTracking.Vehicle@{VehicleTracking.Vehicle}}
+\doxysubsubsection{\texorpdfstring{getCurrentLocation()}{getCurrentLocation()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_vehicle_tracking_1_1_location}{Location}} Vehicle\+Tracking.\+Vehicle.\+get\+Current\+Location (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Method to get the current location of the vehicle.
+
+\begin{DoxyReturn}{Returns}
+The current location of the vehicle. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_vehicle_tracking_1_1_vehicle_aa74a7df557914cc33ba299588253abc3}\label{class_vehicle_tracking_1_1_vehicle_aa74a7df557914cc33ba299588253abc3}} 
+\index{VehicleTracking.Vehicle@{VehicleTracking.Vehicle}!getTotalDistanceTravelled@{getTotalDistanceTravelled}}
+\index{getTotalDistanceTravelled@{getTotalDistanceTravelled}!VehicleTracking.Vehicle@{VehicleTracking.Vehicle}}
+\doxysubsubsection{\texorpdfstring{getTotalDistanceTravelled()}{getTotalDistanceTravelled()}}
+{\footnotesize\ttfamily double Vehicle\+Tracking.\+Vehicle.\+get\+Total\+Distance\+Travelled (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Method to get the total distance travelled by the vehicle.
+
+\begin{DoxyReturn}{Returns}
+The total distance travelled by the vehicle. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_vehicle_tracking_1_1_vehicle_a1ecc043cf8524e3759718c7a02c8273c}\label{class_vehicle_tracking_1_1_vehicle_a1ecc043cf8524e3759718c7a02c8273c}} 
+\index{VehicleTracking.Vehicle@{VehicleTracking.Vehicle}!isInDangerZone@{isInDangerZone}}
+\index{isInDangerZone@{isInDangerZone}!VehicleTracking.Vehicle@{VehicleTracking.Vehicle}}
+\doxysubsubsection{\texorpdfstring{isInDangerZone()}{isInDangerZone()}}
+{\footnotesize\ttfamily boolean Vehicle\+Tracking.\+Vehicle.\+is\+In\+Danger\+Zone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Method to check if the vehicle is in the danger zone.
+
+\begin{DoxyReturn}{Returns}
+true if the vehicle is in the danger zone, false otherwise. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/kalpm/eclipse-\/workspace/\+Group05-\/\+Assignment02-\/\+Kalp-\/\+Rudra-\/\+Girish-\/jiya/src/\+Vehicle\+Tracking/Vehicle.\+java\end{DoxyCompactItemize}

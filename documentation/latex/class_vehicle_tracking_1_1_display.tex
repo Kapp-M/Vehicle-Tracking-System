@@ -1,0 +1,45 @@
+\hypertarget{class_vehicle_tracking_1_1_display}{}\doxysection{Vehicle\+Tracking.\+Display Class Reference}
+\label{class_vehicle_tracking_1_1_display}\index{VehicleTracking.Display@{VehicleTracking.Display}}
+Inheritance diagram for Vehicle\+Tracking.\+Display\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.300813cm]{class_vehicle_tracking_1_1_display}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \mbox{\hyperlink{class_vehicle_tracking_1_1_display_a8ddf7a3493a747ab772405527aa698f4}{update}} (\mbox{\hyperlink{class_vehicle_tracking_1_1_location}{Location}} current\+Location, double total\+Distance\+Travelled, boolean in\+Danger\+Zone)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This abstract class represents a display in the vehicle tracking system. It defines an abstract method update that must be implemented by its subclasses. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_vehicle_tracking_1_1_display_a8ddf7a3493a747ab772405527aa698f4}\label{class_vehicle_tracking_1_1_display_a8ddf7a3493a747ab772405527aa698f4}} 
+\index{VehicleTracking.Display@{VehicleTracking.Display}!update@{update}}
+\index{update@{update}!VehicleTracking.Display@{VehicleTracking.Display}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily abstract void Vehicle\+Tracking.\+Display.\+update (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_vehicle_tracking_1_1_location}{Location}}}]{current\+Location,  }\item[{double}]{total\+Distance\+Travelled,  }\item[{boolean}]{in\+Danger\+Zone }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [abstract]}}
+
+This abstract method is responsible for updating the display with relevant information. Subclasses must implement this method to define how the display should be updated.
+
+
+\begin{DoxyParams}{Parameters}
+{\em current\+Location} & The current location of the vehicle. \\
+\hline
+{\em total\+Distance\+Travelled} & The total distance travelled by the vehicle. \\
+\hline
+{\em in\+Danger\+Zone} & A boolean indicating whether the vehicle is in the danger zone. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \mbox{\hyperlink{class_vehicle_tracking_1_1_current_location_display_a28de727cefafa2996becbf733e2346de}{Vehicle\+Tracking.\+Current\+Location\+Display}}, \mbox{\hyperlink{class_vehicle_tracking_1_1_danger_zone_display_a818eb2621cb5fbbe75664f62e4fd622e}{Vehicle\+Tracking.\+Danger\+Zone\+Display}}, and \mbox{\hyperlink{class_vehicle_tracking_1_1_total_distance_travelled_display_a2547aaa0718e6426fb4c007105574af5}{Vehicle\+Tracking.\+Total\+Distance\+Travelled\+Display}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/kalpm/eclipse-\/workspace/\+Group05-\/\+Assignment02-\/\+Kalp-\/\+Rudra-\/\+Girish-\/jiya/src/\+Vehicle\+Tracking/Display.\+java\end{DoxyCompactItemize}
